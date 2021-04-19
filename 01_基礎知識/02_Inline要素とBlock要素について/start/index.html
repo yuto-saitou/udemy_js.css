@@ -1,27 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Document</title>
     </head>
-
     <body>
-        <div>こんにちは！ 日本！</div>
-        <div>こんにちは！ 日本！</div>
-        <div>こんにちは！ 日本！</div>
-        <div>こんにちは！ 日本！</div>
+        <span>インライン要素span</span>
+        <span>インライン要素span</span>
+        <span>インライン要素span</span>
+        <span>インライン要素は幅と高さは指定できない</span>
+        <div>ブロック要素div</div>
+        <div>ブロック要素div</div>
+        <div>ブロック要素div</div>
+        <div>ブロック要素div</div>
+        <div class="inlineblock">display:inline-block</div>
+        <div class="inlineblock">display:inline-block</div>
+        <div class="inlineblock">display:inline-block</div>
+        
+        <main>
+            <div class="comment">ブロック要素を真ん中＝margin 0 auto</div>
+            <div class="comment">インライン要素を真ん中＝text-align cente</div>
+        </main>
+
         
 
         <style>
             div{
                 width: 300px;
-                height: 200px;
+                height: 100px;
                 background-color: aqua;
+                
             }
-        </style>
-    </body>
+            span{
+                width: 150px;
+                height: 100px;
+                background-color: rgb(212, 156, 33);
+               
+            }
 
+            .inlineblock{
+                display: inline-block;
+                background-color: rgb(209, 141, 141);
+                width: 180px;
+                height: 150px;                
+            }
+            .comment{
+                margin: 0 auto;
+            }
+            
+            main{
+                background-color: blanchedalmond;
+            }
+
+        </style>
+
+        
+    </body>
 </html>

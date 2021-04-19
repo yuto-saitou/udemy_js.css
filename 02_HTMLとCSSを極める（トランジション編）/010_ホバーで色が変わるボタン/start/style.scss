@@ -1,0 +1,21 @@
+#container{
+    text-align: center;
+}
+
+.btn{
+    background-color: aqua;
+    color: black;
+    border: 3px dotted red;
+    padding: 10px 5px ;
+    margin: 50px 0;
+    font-weight: 300;
+    cursor: pointer;
+    transition: all 0.8s;
+}
+
+.btn:hover{
+    background-color: salmon;
+    color: rgb(24, 77, 42);
+
+}
+
